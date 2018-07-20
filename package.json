@@ -1,0 +1,30 @@
+{
+  "name": "kafka-rest",
+  "version": "0.0.5",
+  "description": "NodeJS wrapper for the Kafka REST Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/confluentinc/kafka-rest-node.git"
+  },
+  "keywords": [
+    "kafka",
+    "REST"
+  ],
+  "author": "Confluent Inc.",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/confluentinc/kafka-rest-node/issues"
+  },
+  "homepage": "https://github.com/confluentinc/kafka-rest-node",
+  "dependencies": {
+    "async": "~0.9.0"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.9.0",
+    "minimist": "~1.1.0"
+  }
+}
